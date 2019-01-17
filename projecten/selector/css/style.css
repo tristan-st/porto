@@ -1,0 +1,108 @@
+#myDIV {
+  display: none;
+  }
+
+#shop img {
+  width: 300px;
+}
+
+#shop h1 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.horloge {
+  width: 300px;
+  margin-left: 130px;
+  display: inline-block;
+}
+
+
+#shop h2 {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#shop h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: gold;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#shop h4 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 440px;
+}
+
+#shop {
+}
+
+.foto {
+  height: 900px;
+}
+
+#manklik {
+  text-align: center;
+
+}
+
+#klikhier {
+  margin-top: -843px;
+}
+
+#klikhier img {
+  width: 80px;
+}
+
+#klikhier img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+  transition: opacity .5s ease-out;
+}
+
+#rayban {
+  display: none;
+}
+
+#shirts {
+  display: none;
+}
+
+#klikhier2 {
+  margin-top: 260px;
+  margin-left: 200px;
+  transform: rotate(-90deg); /* Standard syntax */
+}
+
+#klikhier2 img {
+  height: 70px;
+}
+
+#klikhier2 img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+  transition: opacity .5s ease-out;
+}
+
+#klikhier3 {
+  margin-top: -320px;
+}
+
+#klikhier3 img {
+  height: 300px;
+}
+
+#klikhier3 img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+  transition: opacity .5s ease-out;
+}

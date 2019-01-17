@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  font-weight: normal;
+}
+
+
+
+nav {
+  font-family: 'Noto Sans TC',
+    sans-serif;
+  letter-spacing: 3px;
+  font-stretch: expanded;
+  border-bottom: 1px solid #e2e2e2;
+  width: 80%;
+  padding-bottom: 30px;
+
+  h2 {
+    margin-top: 30px;
+    transition: text-shadow 1s;
+    display: inline-block;
+    float: left;
+  }
+
+  ul {
+    margin-top: 35px;
+
+    /* float: right; */
+    /* margin-right: 300px; */
+    li {
+      float: right;
+      margin-right: 50px;
+    }
+  }
+}
+
+
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 2.2s;
+  -moz-animation-delay: 2.2s;
+  animation-delay: 2.2s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+.fade-in.five {
+  -webkit-animation-delay: 2.9s;
+  -moz-animation-delay: 2.9s;
+  animation-delay: 2.9s;
+}
+
+.fade-in.six {
+  -webkit-animation-delay: 3.1s;
+  -moz-animation-delay: 3.1s;
+  animation-delay: 3.1s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 2.2;
+  -moz-animation-delay: 2.2s;
+  animation-delay: 2.2s;
+}
+
+
+#active {
+  color: #000;
+}
+
+#active:hover {
+  cursor: default;
+}
+
+.streep {
+  display: inline-block;
+  color: #c9c9c9;
+  text-decoration: none;
+}
+
+.streep::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+}
+
+.streep:hover::after {
+  width: 100%;
+  //transition: width .3s;
+}
+
+.content {
+  float: left;
+  margin-left: 200px;
+}
+
+#main {
+  margin-top: 200px;
+  font-family: 'Noto Sans TC',
+    sans-serif;
+  height: 500px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 80%;
+
+  h2 {
+    font-size: 30px;
+    padding-top: 10px;
+    width: 500px;
+  }
+
+  p {
+    margin-top: 30px;
+    float: left;
+    margin-left: 20px;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+
+  img {
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    height: 40px;
+    margin-top: 23px
+  }
+}
+
+#rechts img {
+  transform: rotate(0);
+  -ms-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -o-transform: rotate(0);
+  height: auto;
+  margin: 0;
+  float: right;
+  margin-top: -230px;
+  margin-right: 300px;
+}
+
+footer {
+  width: 80%;
+  font-family: 'Noto Sans TC',
+    sans-serif;
+
+  .right {
+    float: right;
+    width: 220px;
+    text-align: center;
+    padding-top: 20px;
+
+    i {
+      color: #b7b7b7;
+      float: left;
+      font-size: 1.0em;
+      margin-top: 3px;
+      margin-right: 13px;
+    }
+
+    p {
+      float: left;
+      color: #b7b7b7;
+      padding-left: 5px;
+      margin: 0;
+      margin-top: 6px;
+      font-size: 13px;
+    }
+  }
+}
+
+#projecten {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 20px;
+  height: 700px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 80%;
+
+  #projectentitel {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+.blok {
+  border: 1px solid #e2e2e2;
+  width: 30%;
+  float: left;
+  background-color: #f9f9f9;
+  margin-left: 40px;
+  height: 450px;
+
+  img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .overlay1 {
+    opacity: 0;
+  }
+
+  .overlay2 {
+    opacity: 0;
+  }
+
+  .overlay3 {
+    opacity: 0;
+  }
+
+
+
+  .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 452px;
+    width: 461px;
+    text-align: center;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 0.35s ease-in-out;
+
+    p {
+      color: white;
+      font-size: 20px;
+      border: 1px solid white;
+      margin-top: 221px;
+      display: inline-block;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+
+
+  h2 {
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+  }
+
+  #hohoi {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  h3 {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-size: 17px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-weight: normal;
+  }
+
+  p {
+    padding-top: 10px;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+}
+
+#maincontent {
+  height: 500px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 80%;
+  margin: 0 auto;
+
+  #informatie {
+    float: left;
+    margin-top: 100px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+      10px 10px 15px rgba(0, 0, 0, 0.5),
+      -1px -1px 30px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+  }
+
+  #skills {
+    float: right;
+    width: 10%;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+      10px 10px 15px rgba(0, 0, 0, 0.5),
+      -1px -1px 30px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin-right: 164px;
+
+    h2 {
+      font-size: 20px;
+      font-weight: normal;
+      border-bottom: 1px solid #e2e2e2;
+      padding-bottom: 10px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+
+    #progressbar {
+      background-color: white;
+      border: 1px solid #e2e2e2;
+      border-radius: 13px;
+      /* (height of inner div) / 2 + padding */
+      padding: 3px;
+      width: 100px;
+
+      div {
+        background-color: aqua;
+        /* Adjust with JavaScript */
+        height: 10px;
+        border-radius: 10px;
+        opacity: 0.5;
+      }
+
+      .nr1 {
+        width: 70px;
+      }
+
+      .nr2 {
+        width: 30px;
+      }
+
+      .nr3 {
+        width: 24px;
+      }
+    }
+
+
+  }
+
+}
+
+
+
+
+
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

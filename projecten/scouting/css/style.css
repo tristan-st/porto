@@ -1,0 +1,29 @@
+#informatie {
+  margin-top: 60px;
+}
+
+.lijstje {
+  margin-left: 80px;
+}
+
+.vraag {
+  margin-top: 50px;
+}
+
+#tabs, #tab-2, #tab-3, #tab-4, #tab-5, #tab-6, #tab-7, #tab-8, #tab-9, #tab-10, #tab-11, #tab-12, #tab-13, #tab-14, #tab-15 #change_submit {
+  display: none;
+}
+
+.antwoord {
+  width: 300px;
+}
+
+.midden {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.knoppen {
+  text-align: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,473 @@
+.hoi {
+background-color: #709b1d;
+}
+
+.doei {
+  background-color: #f1f1f1;
+}
+
+
+.welkom {
+  background-color: #e0e0e0;
+}
+
+.dag {
+  background-color: #f3f3f3;
+}
+
+nav .active a {
+  background-color: white;
+  color: #709b1d;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+nav {
+  width: 100%;
+  background-color: #709b1d;
+  height: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  padding-right: 12px;
+}
+
+nav li a {
+  height: 35px;
+  font-size: 14px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 3px;
+  padding-right: 11px;
+  padding-top: 6px;
+}
+
+nav ul li a img {
+  padding-right: 4px;
+}
+
+.rechtsfloat ul li {
+  float: right;
+}
+
+.logo img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.maakaccount h2 {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 40px;
+  float: right;
+}
+
+.maakaccount span {
+  color: #709b1d;
+}
+
+.menu {
+  background-color: #f3f3f3;
+  color: #709b1d;
+  height: 40px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  padding-top: 5px;
+  float: left;
+  padding-right: 33px;
+}
+
+.menu li a {
+  color: #709b1d;
+  height: 30px;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 6px;
+  padding-right: 11px;
+}
+
+article .active a {
+  border-radius: 4px;
+  color: white;
+  background-color: #709b1d;
+  padding-left: 11px;
+}
+
+.menu ul li a {
+  padding-top: 5px;
+}
+
+.menu ul p {
+  padding-top: 5px;
+  font-size: 12px;
+  margin-top: 5px;
+  padding-left: 12px;
+  background-color: white;
+  float: left;
+  width: 219px;
+  border-radius: 2px;
+  height: 30px;
+  color: #898888;
+}
+
+.menu ul img {
+  margin-top: 5px;
+  background-color: #709b1d;
+  height: 30px;
+}
+
+.padje {
+  background-color: #709b1d;
+  height: 32px;
+  color: white;
+  margin-top: 15px;
+  padding-top: 3px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+.annanooshin {
+  text-align: center;
+}
+
+.blok1 {
+  background-color: #d0dfa6;
+  margin-left: 5px;
+  margin-top: 37px;
+  padding-left: 34px;
+  padding-top: 40px;
+  height: 172px;
+  background-image: url("../img/headachtergrond.png");
+}
+
+.blok1 h3 {
+  font-size: 35px;
+  float: left;
+}
+
+.blok1 h5 {
+  float: right;
+  text-align: center;
+  width: 150px;
+  font-size: 30px;
+  color: white;
+}
+
+.mainbg {
+  background-image: url("../img/mainbg.png");
+}
+
+
+.qucee {
+  background-image: url("../img/headachtergrond.png");
+  background-repeat: no-repeat;
+  height: 172px;
+}
+
+.productje h5 {
+  font-size: 14px;
+  color: #709b1d;
+  width: 200px;
+  border-radius: 1px;
+  border: 1px solid #cbcbcb;
+  margin-left: 11px;
+  text-align: center;
+}
+
+.productje p {
+  text-align: center;
+}
+
+.productje {
+  /* margin-right: 20px; */
+  margin-top: 35px;
+}
+
+.qucee h3 {
+  font-size: 38px;
+  width: 485px;
+  padding-top: 42px;
+  padding-left: 34px;
+  font-weight: normal;
+}
+
+.qucee {
+  margin-top: 35px;
+}
+.qucee h4 {
+  margin-left: 33px;
+  color: white;
+  margin-top: 40px;
+  font-size: 38px;
+  font-weight: normal;
+  width: 150px;
+  text-align: center;
+}
+
+.nostress {
+    /* margin-left: 3 0px; */
+}
+
+.dikkebar {
+  background-color: #7fa534;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 70px;
+}
+
+.hoidik {
+  background-color: #709b1d;
+}
+
+.hoidik img {
+  float: left;
+  padding-right: 10px;
+}
+
+.hoidik h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  width: 219px;
+}
+
+.hoidik h4 {
+  float: left;
+  font-size: 12px;
+  }
+
+.ster {
+  height: 14px;
+  margin-left: -2px;
+}
+
+.ratings {
+text-align: center;
+margin-top: -20px;
+}
+
+.nostress h4 {
+  background-color: #7fa522;
+  color: white;
+  font-size: 18px;
+  height: 30px;
+  padding-top: 3px;
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+.groentje {
+  color: #90b13f;
+}
+
+.nostress p {
+  margin: 0;
+  margin-top: 7px;
+}
+
+.grootvlak {
+  height: 309px;
+  width: 219px;
+  background-color: #d7d7d7;
+  color: white;
+}
+
+.verplaats {
+  margin-top: 30px;
+}
+
+.kleinvlak {
+  height: 225px;
+  width: 219px;
+  background-color: #d7d7d7;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  color: white;
+}
+
+.nostress img {
+  margin-right: 10px;
+  /* margin-left: 8px; */
+}
+
+.nostress {
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+.merkje {
+  text-align: center;
+  margin-top: 89px;
+}
+
+.merkje h4{
+  padding-top: 6px;
+  font-size: 24px;
+  color: white;
+  background-color: #709b1d;
+  display: inline-block;
+  height: 46px;
+  width: 167px;
+  font-weight: normal;
+  border-radius: 1px;
+}
+
+.logos {
+  margin-top: 26px;
+  margin-bottom: 50px;
+}
+
+.informatie {
+  background-color: #f1f1f1;
+  height: 251px;
+}
+
+.informatie h2 {
+  margin-top: 58px;
+  color: #709b1d;
+  font-size: 18px;
+  font=weight: normal;
+  border-bottom: 1px solid black;
+  padding-bottom: 11px;
+}
+
+.informatie img {
+  margin-right: 13px;
+}
+
+.opschuiven{
+  padding-left: 22px;
+}
+
+.informatie p{
+  margin: 0;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.accepteren {
+  height: 52px;
+  background-color: #e0e0e0;
+}
+
+.bahbah {
+    text-align: center;
+}
+
+.bahbah h3 {
+  padding-bottom: 10px;
+}
+
+.accepteren img {
+  margin-top: 7px;
+}
+
+.dikkert {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.accepteren h3 {
+  margin-top: 8px;
+  background-color: #709b1d;
+  width: 119px;
+  font-size: 16px;
+  color: white;
+  height: 30px;
+  font-weight: normal;
+  padding-left: 13px;
+  padding-top: 3px;
+  float: left;
+  margin-right: 15px;
+  margin-left: 2px;
+  border-radius: 1px;
+}
+
+.copyright {
+  background-color: #709b1d;
+  height: 50px;
+
+}
+
+.copyright h3 {
+  font-size: 16px;
+  padding-top: 11px;
+  color: #c5ec78;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .menu li {
+    float: none;
+    display: block;
+  }
+
+  .menu {
+    height: 300px;
+  }
+
+  .menu ul {
+    height: 1000px;
+    display: block;
+  }
+
+.accepteren img {
+  float: left;
+  display: block;
+  width: 10%;
+}
+
+.productje h5 {
+  width: auto;
+}
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+
+
+  .accepteren {
+    height: auto;
+  }
+
+  .accepteren img {
+  }
+
+  .informatie {
+    height: auto;
+  }
+
+  .copyright {
+    height: auto;
+  }
+
+
+
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="manklik">
+
+      <img src="img/mannetje.png" alt="" class="foto">
+      <div id="klikhier">
+        <img src="img/rayban.png" alt="" onclick="rayban()" id="strijder">
+      </div>
+
+        <div id="klikhier2">
+          <img src="img/horloge.png" alt="" onclick="klok()">
+      </div>
+
+          <div id="klikhier3">
+            <img src="img/shirt.png" alt="" onclick="shirt()">
+      </div>
+
+
+          </div>
+
+
+          <div id="myDIV">
+            <div id="shop">
+
+              <h4>Alle heren horloges</h4>
+
+              <div class="horloge">
+                <img src="img/batman.webp" alt="">
+                <h1>Rolex BLNR</h1>
+                <h2>Price: </h2><h3>&euro; 11.800</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/batman.webp" alt="">
+                <h1>Rolex BLNR</h1>
+                <h2>Price: </h2><h3>&euro; 11.800</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/batman.webp" alt="">
+                <h1>Rolex BLNR</h1>
+                <h2>Price: </h2><h3>&euro; 11.800</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/batman.webp" alt="">
+                <h1>Rolex BLNR</h1>
+                <h2>Price: </h2><h3>&euro; 11.800</h3>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div id="rayban">
+
+            <div id="shop">
+
+              <h4>Alle heren zonnebrillen</h4>
+
+              <div class="horloge">
+                <img src="img/rayban.png" alt="">
+                <h1>Rayban planga</h1>
+                <h2>Price: </h2><h3>&euro; 230,-</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/rayban.png" alt="">
+                <h1>Rayban planga</h1>
+                <h2>Price: </h2><h3>&euro; 230,-</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/rayban.png" alt="">
+                <h1>Rayban planga</h1>
+                <h2>Price: </h2><h3>&euro; 230,-</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/rayban.png" alt="">
+                <h1>Rayban planga</h1>
+                <h2>Price: </h2><h3>&euro; 230,-</h3>
+              </div>
+
+            </div>
+          </div>
+
+          <div id="shirts">
+
+            <div id="shop">
+
+              <h4>Alle heren shirts</h4>
+
+              <div class="horloge">
+                <img src="img/tshirt.jpg" alt="">
+                <h1>Philipp Plein</h1>
+                <h2>Price: </h2><h3>&euro; 535,-</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/tshirt.jpg" alt="">
+                <h1>Philipp Plein</h1>
+                <h2>Price: </h2><h3>&euro; 535,-</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/tshirt.jpg" alt="">
+                <h1>Philipp Plein</h1>
+                <h2>Price: </h2><h3>&euro; 535,-</h3>
+              </div>
+
+              <div class="horloge">
+                <img src="img/tshirt.jpg" alt="">
+                <h1>Philipp Plein</h1>
+                <h2>Price: </h2><h3>&euro; 535,-</h3>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+          function klok() {
+            var klok = document.getElementById("myDIV");
+            if (klok.style.display === "block") {
+              klok.style.display = "none";
+            } else {
+              klok.style.display = "block";
+            }
+          }
+
+          function rayban() {
+            var bril = document.getElementById("rayban");
+            if (bril.style.display === "block") {
+              bril.style.display = "none";
+            } else {
+              bril.style.display = "block";
+            }
+          }
+
+          function shirt() {
+             if (shirt.style.display === "block") {
+              shirt.style.display = "none";
+            } else {
+              shirt.style.display = "block";
+            }
+          }
+
+          $("#klikhier").click(function() {
+            $('html,body').animate({
+                scrollTop: $("#rayban").offset().top
+              },
+              'slow');
+          });
+
+          $("#klikhier2").click(function() {
+            $('html,body').animate({
+                scrollTop: $("#myDIV").offset().top
+              },
+              'slow');
+          });
+
+          $("#klikhier3").click(function() {
+            $('html,body').animate({
+                scrollTop: $("#shirts").offset().top
+              },
+              'slow');
+          });
+        </script>
+
+
+</body>
+
+</html>
