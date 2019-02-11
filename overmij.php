@@ -38,7 +38,7 @@ $result2 = mysqli_query($con,"SELECT * FROM informatie WHERE id=2");
                 <h2 class="streep">Tristan Strookappe</h2>
             </a>
             <ul>
-                <li><a class="streep" href="#" id="button">Contact</a></li>
+                <li><a class="streep" href="contact.html" id="button">Contact</a></li>
                 <li id="active">Over mij</li>
                 <li><a class="streep" href="mijnprojecten.html">Mijn Projecten</a></li>
             </ul>
@@ -67,7 +67,8 @@ $result2 = mysqli_query($con,"SELECT * FROM informatie WHERE id=2");
                 <img src="img/php.png" alt="php logo" class="speciaalphp">
 
             </div>
-
+          </div>
+        </div>
 
 
         <footer>
@@ -78,6 +79,5 @@ $result2 = mysqli_query($con,"SELECT * FROM informatie WHERE id=2");
             </div>
         </footer>
 
-    </div>
 </body>
 </html>
