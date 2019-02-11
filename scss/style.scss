@@ -8,7 +8,6 @@
 }
 
 
-
 nav {
   font-family: 'Noto Sans TC',
     sans-serif;
@@ -309,20 +308,37 @@ footer {
 }
 
 #maincontent {
-  height: 500px;
+  height: 8 00px;
   border-bottom: 1px solid #e2e2e2;
   width: 80%;
   margin: 0 auto;
 
-  #informatie {
+  .speciaalphp {
+    margin-bottom: -20px;
+  }
+
+  .informatie {
     float: left;
     margin-top: 100px;
-    width: 40%;
+    width: 60%;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
-      10px 10px 15px rgba(0, 0, 0, 0.5),
-      -1px -1px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1),
+      1px 1px 1px rgba(0, 0, 0, .5),
+      -1px -1px 1px rgba(0, 0, 0, .2);
     padding: 50px;
+
+    img {
+      height: 150px;
+      // padding-right: px;
+      padding-top: 50px;
+      filter: grayscale(100%);
+      transition: all 0.5s;
+    }
+
+    img:hover {
+      filter: grayscale(0%);
+    }
+
   }
 
   #skills {
@@ -330,9 +346,9 @@ footer {
     width: 10%;
     margin-top: 100px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
-      10px 10px 15px rgba(0, 0, 0, 0.5),
-      -1px -1px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1),
+      1px 1px 1px rgba(0, 0, 0, .5),
+      -1px -1px 1px rgba(0, 0, 0, .2);
     padding: 50px;
     margin-right: 164px;
 

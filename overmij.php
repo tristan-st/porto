@@ -6,10 +6,10 @@ if (mysqli_connect_errno())
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$result = mysqli_query($con,"SELECT * FROM informatie");
+$result1 = mysqli_query($con,"SELECT * FROM informatie WHERE id=1");
+$result2 = mysqli_query($con,"SELECT * FROM informatie WHERE id=2");
 
-while($row = mysqli_fetch_array($result))
-{
+
  ?>
 
 <!DOCTYPE html>
@@ -45,37 +45,28 @@ while($row = mysqli_fetch_array($result))
         </nav>
 
         <div id="maincontent">
-            <div id="informatie" class="content fade-in two">
-                <h2><?php echo$row["titel"] ?> </h2>
-                <h3><?php echo $row["inhoud"] ?> </h3>
+            <div id="overmij" class="content fade-in two informatie">
+                
+                <h2><?php 
+                     while($row = mysqli_fetch_array($result1)) {
+                          echo$row["titel"] ?> </h2>
+                <h3><?php echo $row["inhoud"]; }?> </h3>
+                
             </div>
 
-            <div id="skills" class="fade-in three">
-            
+            <div id="mijnskills" class="content fade-in three informatie">
+                
+                <h2><?php 
+                     while($row = mysqli_fetch_array($result2)) {
+                          echo$row["titel"] ?> </h2>
+                <h3><?php echo $row["inhoud"]; }?> </h3>
+                <img src="img/html5.png" alt="html5 logo">
+                <img src="img/css.png" alt="css logo">
+                <img src="img/jquery.png" alt="jquery logo">
+                <img src="img/ajax.png" alt="ajax logo">
+                <img src="img/php.png" alt="php logo" class="speciaalphp">
 
-                <h2></h2>
-                <h3>HTML/CSS</h3>
-                <div id="progressbar">
-                    <div class="nr1"></div>
-                </div>
-                <h3>jQuery</h3>
-                <div id="progressbar">
-                    <div class="nr2"></div>
-                </div>
-                <h3>PHP</h3>
-                <div id="progressbar">
-                    <div class="nr3"></div>
-                </div>
-                    <h3>PHP</h3>
-                <div id="progressbar">
-                    <div class="nr3"></div>
-                </div>
-                    <h3>PHP</h3>
-                <div id="progressbar">
-                    <div class="nr3"></div>
-                </div>
             </div>
-        </div>
 
 
 
@@ -89,8 +80,4 @@ while($row = mysqli_fetch_array($result))
 
     </div>
 </body>
-
-
-
 </html>
-<?php }?>
