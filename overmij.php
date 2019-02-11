@@ -1,9 +1,13 @@
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
+    <meta name="description" content="Portfolio van Tristan Strookappe | Over Mij"/>
+    <meta name="keywords" content="Tristan, Strookappe, Portfolio, Over, Mij, About, Me, Information, Wie, Ben, Ik"/>
     <meta charset="utf-8">
-    <title>Tristan Strookappe - Home</title>
+    <title>Tristan Strookappe - Over Mij</title>
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
@@ -30,12 +34,14 @@
 
         <div id="maincontent">
             <div id="informatie" class="content fade-in two">
-                <h2>Mijn naam is Tristan Strookappe</h2>
-                <h3>Ik ben een front-end developer. </h3>
+                <h2>Tristan Strookappe</h2>
+                <h3>sfasfasf?></h3>
             </div>
 
             <div id="skills" class="fade-in three">
-                <h2>Mijn vaardigheden</h2>
+            
+
+                <h2></h2>
                 <h3>HTML/CSS</h3>
                 <div id="progressbar">
                     <div class="nr1"></div>
@@ -48,8 +54,18 @@
                 <div id="progressbar">
                     <div class="nr3"></div>
                 </div>
+                    <h3>PHP</h3>
+                <div id="progressbar">
+                    <div class="nr3"></div>
+                </div>
+                    <h3>PHP</h3>
+                <div id="progressbar">
+                    <div class="nr3"></div>
+                </div>
             </div>
         </div>
+
+
 
         <footer>
             <div class="right fade-in four">
