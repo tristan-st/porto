@@ -1,4 +1,16 @@
+<?php
+$con=mysqli_connect("localhost","root","","porto");
+// Check connection
+if (mysqli_connect_errno())
+{
+echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
 
+$result = mysqli_query($con,"SELECT * FROM informatie");
+
+while($row = mysqli_fetch_array($result))
+{
+ ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -34,8 +46,8 @@
 
         <div id="maincontent">
             <div id="informatie" class="content fade-in two">
-                <h2>Tristan Strookappe</h2>
-                <h3>sfasfasf?></h3>
+                <h2><?php echo$row["titel"] ?> </h2>
+                <h3><?php echo $row["inhoud"] ?> </h3>
             </div>
 
             <div id="skills" class="fade-in three">
@@ -78,4 +90,7 @@
     </div>
 </body>
 
+
+
 </html>
+<?php }?>
